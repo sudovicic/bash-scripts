@@ -11,6 +11,7 @@ case "$1" in
     g) lts_version="gallium" ;;
     h) lts_version="hydrogen" ;;
     i) lts_version="iron" ;;
+    j) lts_version="jod" ;;
     *) echo "Unsupported Node.js LTS version."; return 1 ;;
 esac
 
